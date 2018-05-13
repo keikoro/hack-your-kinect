@@ -1,0 +1,28 @@
+# ----- Files PROJECT
+
+
+# ----- Mac
+.DS_Store
+
+# ----- env, config vars
+*.env
+**config**
+**var/**
+
+# ----- Files general
+*.log
+**cache**
+**local**
+**foo**
+**dist**
+**temp**
+**build
+*.sqlite
+
+# ----- JetBrains
+.idea/
+
+# ----- Allow
+!**template**
+!**requirements.txt**
+!**runtime.txt**
